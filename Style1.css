@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto;
+    color: black;
+    margin:auto;
+    text-align:auto;
+    max-width: width 1000px;;
+    font-size: 20px;
+    background-color:white;
+}
+h4 {
+    font:italic small-caps bolder 28px aerial;
+}
+div {
+    
+    padding: 20px;
+    margin: 1px;
+}
+#left{
+    float: left;
+    
+}
+#right{
+    float: right;
+}
+
+#h {
+    float: left;
+    padding: 0px 20px 20px 0px;
+    border: none;
+}
+#identity{
+    float: left;
+    overflow: auto;
+}
+#background-image
+{
+    background-image: url("sman1.jpg");
+    height: 300px;
+    max-width: 80%;
+    padding-top: 20px;
+    color:#fff;
+    margin-top:25px;
+  
+}
+#content
+{
+    background-color: rgba(0,0,0,0.7);
+    color:wheat;
+    max-width:250px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.thumbnail {
+    display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #949494;
+    text-align: center;
+    color: #666;
+    margin: 50px;
+}
+table{
+    border: 1px solid;
+    width: 80%;
+    cell spacing=0;
+   
+}
+th,td{
+    padding: 15px;
+    border: 1px solid #a4a4a4;
+    height: 30px;
+    text-align: center;
+}
+th {
+    background-color: #ececec;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+nav {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    border-bottom: 1px solid;
+}
