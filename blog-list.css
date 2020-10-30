@@ -1,0 +1,52 @@
+.breadcrumb-custom{
+    margin-top: 26px;
+    font-size: 18px;
+
+}
+.breadcrumb-custom 
+li{
+    display: inline-block;
+    color: white;
+    padding: 2px;
+}
+ul, ol{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.fa{
+    padding: 0px 12px 0 12px;
+    color: rgba(211, 45, 53, 0.5);
+}
+.section-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg-default {
+    background: #fff;
+    fill: #fff;
+}
+.section {
+    position: relative;
+    z-index: 1;
+}
+.post-block .post-body {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 30px 22px 30px 25px;
+    text-align: left;
+}
+.post-block {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 200px;
+    overflow: hidden;
+}
