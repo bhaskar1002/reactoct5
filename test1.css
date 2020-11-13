@@ -1,0 +1,98 @@
+<div id="demo">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+
+              <div id="owl-demo" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5440px; left: 0px; display: block; transform: translate3d(0px, 0px, 0px); transition: all 1000ms ease 0s;"><div class="owl-item" style="width: 340px;">
+                <div class="item"><img src="assets/owl1.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl2.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl3.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl4.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl5.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl6.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl7.jpg" alt="Owl Image"></div></div><div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl8.jpg" alt="Owl Image"></div></div></div></div>
+                <div class="owl-item" style="width: 340px;"><div class="item"><img src="assets/owl1.jpg" alt="Owl Image"></div></div><div id="demo">
+                
+                
+                <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div>
+                
+              <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+              
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    
+    <section class="mt-30 fluid-section-one">
+
+<div class="container-fluid plr-20">
+<div class="row">
+<div class="col-md-8">
+  <img src="assets/images/download.png" style="width: 100%;">
+</div>
+<div class="col-md-4">
+  <div class="card-blue">
+ <h1 class="heading-border1">Mission and Vission</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+ <p class="btn-view">View</p>
+ <img class="mission-img" src="assets/images/target.png">
+  </div>
+</div>
+</div>
+</div>
+
+</section>
+/*style*/
+section.mt-30.fluid-section-one {
+    overflow: hidden;
+}
+.heading-border1{
+    color: #fff !important;
+}
+.heading-border1:after {
+    content: "";
+    display: block;
+  
+    /* margin: 0 auto; */
+    width: 15%;
+    padding-top: 10px;
+    border-bottom: 4px solid #fff ;
+}
+p.btn-view {
+    width: 84px;
+    padding-left: 18px;
+    padding-top: 8px;
+    border-radius: 5px;
+    /* padding: 8px 3px; */
+    height: 42px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 54.17px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    border: 1px solid #fff;
+}
+p.btn-view:hover{
+    color: blue;
+    background: #fff;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+.card-blue{
+       width: 100%;
+    height: 500px;
+    box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    background-color: #003bc0;
+    padding: 42px 40px;
+    color: #fff;
+    margin-left: 0px;
+
+    margin-top: 0px;
+}
